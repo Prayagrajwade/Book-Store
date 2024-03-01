@@ -17,7 +17,7 @@ app.get('/',(req,res)=>{
 
 
 
-mongoose.connect('mongodb+srv://prayagrajwade01:gCiO36sCzUThRgw5@cluster0.crdo3c8.mongodb.net/BookInvertory', {
+mongoose.connect('mongodb+srv://<Enter your mongoUrl here>:gCiO36sCzUThRgw5@cluster0.crdo3c8.mongodb.net/BookInvertory', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
